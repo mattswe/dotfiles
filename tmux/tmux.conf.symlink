@@ -1,0 +1,30 @@
+
+# ----------------------------------------------------------------------------
+# Interaction
+# ----------------------------------------------------------------------------
+
+setw -g mode-keys vi
+set -g status-keys vi
+
+setw -g mode-mouse on
+set-option -g mouse-select-pane on
+
+set -g pane-active-border-fg blue 
+
+
+# ----------------------------------------------------------------------------
+# Key Bindings
+# ----------------------------------------------------------------------------
+
+# first unbind, then bind: this allows on-the-fly config reloading (with C-r)
+# quick tip: the '-r' flag means they can be pressed repeatedly
+
+
+# window cycling
+
+unbind <
+bind -r < previous-window
+
+unbind >
+bind -r > next-window
+
