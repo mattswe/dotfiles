@@ -12,7 +12,8 @@ task :install do
     overwrite = false
     backup = false
 
-    file = linkable.split('/').last.split('.').first
+    file = linkable.split('/').last.split('.')[0...-1]
+    print file
     target = "#{ENV["HOME"]}/.#{file}"
 
     if File.exists?(target) || File.symlink?(target)
