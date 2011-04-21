@@ -1,7 +1,10 @@
 # dotfiles
 
+If you listen closely to my dotfiles, you can hear a tumbleweed bouncing across the desert
+
 ## install
 
+- `sudo apt-get install rake`
 - `git clone git://github.com/mattswe/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `rake install`
