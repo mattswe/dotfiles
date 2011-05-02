@@ -1,0 +1,9 @@
+[user]
+	name = Matt Sweeney
+	email = mattswe@gmail.com
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
