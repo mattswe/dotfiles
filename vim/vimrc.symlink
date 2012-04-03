@@ -23,6 +23,7 @@ set nosmarttab             " fuck tabs
 "  UI
 " ----------------------------------------------------------------------------
 
+syntax on                  " use syntax highlighting
 set ruler                  " show the cursor position all the time
 set nolazyredraw           " turn off lazy redraw
 
