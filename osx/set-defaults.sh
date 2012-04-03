@@ -19,9 +19,6 @@ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
-# Display full POSIX path as Finder window title
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
-
 # Enable tap to click (Trackpad)
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 
