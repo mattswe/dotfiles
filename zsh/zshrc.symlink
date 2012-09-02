@@ -34,3 +34,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# Virtualenv handling
+source /usr/local/bin/virtualenvwrapper.sh
+
