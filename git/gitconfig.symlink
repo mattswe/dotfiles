@@ -1,15 +1,15 @@
 [user]
-	name = Matt Sweeney
-	email = mattswe@gmail.com
+    name = Matt Sweeney
+    email = mattswe@gmail.com
 
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-	interactive = auto
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
 
 [core]
-	excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore
 
 [branch]
     autosetuprebase = always
