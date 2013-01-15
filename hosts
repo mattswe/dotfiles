@@ -1,0 +1,6 @@
+# Distraction free! Block thusly:
+# cat hosts >> /etc/hosts
+
+# Blocked sites
+127.0.0.1   www.reddit.com reddit.com
+127.0.0.1   news.ycombinator.com
