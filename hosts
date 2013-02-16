@@ -1,5 +1,5 @@
 # Distraction free! Block thusly:
-# cat hosts >> /etc/hosts
+# cat hosts | sudo tee -a /etc/hosts
 
 # Blocked sites
 127.0.0.1   www.reddit.com reddit.com
