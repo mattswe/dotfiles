@@ -34,11 +34,13 @@ imap <right> <nop>
 syntax on                  " use syntax highlighting
 set ruler                  " show the cursor position all the time
 set nolazyredraw           " turn off lazy redraw
+set cursorline             " highlight line cursor is on
 
 " ----------------------------------------------------------------------------
 " Visual Cues
 " ----------------------------------------------------------------------------
 
+set hlsearch               " highlight search
 set showmatch              " brackets/braces that is
 set incsearch              " do incremental searching
 set ignorecase             " ignore case when searching
