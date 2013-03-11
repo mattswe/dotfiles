@@ -1,4 +1,10 @@
+" ----------------------------------------------------------------------------
+"  General
+" ----------------------------------------------------------------------------
+
+set nocompatible
 set noswapfile
+set autoread               " reload files changed outside vim
 
 " ----------------------------------------------------------------------------
 "  Text Formatting
@@ -45,4 +51,7 @@ set showmatch              " brackets/braces that is
 set incsearch              " do incremental searching
 set ignorecase             " ignore case when searching
 set visualbell             " shut the fuck up
+
+" display trailing spaces
+set list listchars=tab:\ \ ,trail:·
 
