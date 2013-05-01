@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ln -s ~/.dotfiles/zsh/oh-my-zsh/themes ~/.oh-my-zsh/custom/themes
+ln -s ~/.dotfiles/zsh/oh-my-zsh/plugins ~/.oh-my-zsh/custom/plugins
+
