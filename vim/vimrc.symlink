@@ -55,3 +55,7 @@ set visualbell             " shut the fuck up
 " display trailing spaces
 set list listchars=tab:\ \ ,trail:·
 
+" highlight 80 char limit
+set textwidth=80
+set colorcolumn=+1
+hi ColorColumn guibg=#2d2d2d ctermbg=246
