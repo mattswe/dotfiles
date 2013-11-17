@@ -5,6 +5,8 @@
 new-session
 set -g history-limit 10000
 
+# allow native scrollback in terminal.app
+set -g terminal-overrides 'xterm*:smcup@:rmcup@'
 
 # ----------------------------------------------------------------------------
 # Interaction
