@@ -3,14 +3,19 @@
 # ----------------------------------------------------------------------------
 
 new-session
-set -g history-limit 10000
+set-option -g history-limit 10000
+set-window-option -g monitor-activity on
+set-window-option -g aggressive-resize on
 
-# allow native scrollback in terminal.app
-set -g terminal-overrides 'xterm*:smcup@:rmcup@'
+# Automatically set window title
+set-window-option -g automatic-rename
 
 # ----------------------------------------------------------------------------
 # Interaction
 # ----------------------------------------------------------------------------
+
+# Allow native scrollback in terminal.app
+set-option -g terminal-overrides 'xterm*:smcup@:rmcup@'
 
 setw -g mode-keys vi
 set -g status-keys vi
