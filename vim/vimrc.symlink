@@ -46,11 +46,6 @@ set cursorline             " highlight line cursor is on
 set background=dark
 colorscheme solarized
 
-" highlight 80 char limit
-set textwidth=80
-set colorcolumn=+1
-hi ColorColumn guibg=#2d2d2d ctermbg=246
-
 " unbroken lines between splits
 hi VertSplit ctermbg=NONE ctermfg=14
 set fillchars-=vert:\|
@@ -65,6 +60,7 @@ set showmatch              " brackets/braces that is
 set incsearch              " do incremental searching
 set ignorecase             " ignore case when searching
 set visualbell             " shut the fuck up
+match Error /\%81v.\+/     " highlight >80 char lines
 
 " display trailing spaces
 set list listchars=tab:\ \ ,trail:·
