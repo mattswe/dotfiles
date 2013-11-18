@@ -2,7 +2,6 @@
 # General
 # ----------------------------------------------------------------------------
 
-new-session
 set-option -g history-limit 10000
 set-window-option -g monitor-activity on
 set-window-option -g aggressive-resize on
