@@ -51,6 +51,11 @@ set textwidth=80
 set colorcolumn=+1
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 
+" unbroken lines between splits
+hi VertSplit ctermbg=NONE ctermfg=14
+set fillchars-=vert:\|
+set fillchars+=vert:│
+
 " ----------------------------------------------------------------------------
 " Visual Cues
 " ----------------------------------------------------------------------------
