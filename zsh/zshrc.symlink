@@ -35,6 +35,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# Force tmux to start as screen-256color
+alias tmux="tmux -2"
+
 # Virtualenv handling
 source /usr/local/bin/virtualenvwrapper.sh
 

@@ -10,6 +10,10 @@ set-window-option -g aggressive-resize on
 # Automatically set window title
 set-window-option -g automatic-rename
 
+# Show colors
+set-option -g default-terminal "screen-256color"
+set-window-option -g utf8 on
+
 # ----------------------------------------------------------------------------
 # Interaction
 # ----------------------------------------------------------------------------
@@ -35,10 +39,8 @@ set -g pane-active-border-fg blue
 
 
 # window cycling
-
 unbind <
 bind -r < previous-window
-
 unbind >
 bind -r > next-window
 
