@@ -39,5 +39,9 @@ source $ZSH/oh-my-zsh.sh
 alias tmux="tmux -2"
 
 # Virtualenv handling
-source /usr/local/bin/virtualenvwrapper.sh
-
+if [ "$(uname -s)" "==" "Darwin" ]
+then
+  source /usr/local/bin/virtualenvwrapper.sh
+else
+  source /etc/bash_completion.d/virtualenvwrapper
+fi
