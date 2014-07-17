@@ -4,7 +4,7 @@ If you listen closely to my dotfiles, you can hear a tumbleweed bouncing across 
 
 ## install
 
-- `git clone git://github.com/mattswe/dotfiles ~/.dotfiles`
+- `git clone git://github.com/sweenzor/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `script/bootstrap`
 
