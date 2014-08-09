@@ -33,6 +33,12 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
+" fix fat fingers
+command WQ wq
+command Wq wq
+command W w
+command Q q
+
 " ----------------------------------------------------------------------------
 "  UI
 " ----------------------------------------------------------------------------
