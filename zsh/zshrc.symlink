@@ -38,6 +38,9 @@ source $ZSH/oh-my-zsh.sh
 # Force tmux to start as screen-256color
 alias tmux="tmux -2"
 
+# Set editor to vim
+export EDITOR=vim
+
 # Virtualenv handling
 if [ "$(uname -s)" "==" "Darwin" ]
 then
