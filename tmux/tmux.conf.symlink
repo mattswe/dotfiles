@@ -9,6 +9,10 @@ set-window-option -g aggressive-resize on
 # Automatically set window title
 set-window-option -g automatic-rename
 
+# Renumber tabs
+set-option -g base-index 1
+set-option -g renumber-windows on
+
 # Show colors
 set-option -g default-terminal "screen-256color"
 set-window-option -g utf8 on
