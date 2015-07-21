@@ -4,3 +4,5 @@
 # Blocked sites
 127.0.0.1   www.reddit.com reddit.com
 127.0.0.1   news.ycombinator.com
+127.0.0.1   www.facebook.com facebook.com
+127.0.0.1   www.twitter.com twitter.com
