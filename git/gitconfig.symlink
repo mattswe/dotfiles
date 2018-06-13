@@ -2,6 +2,9 @@
     name = Matt Sweeney
     email = mattswe@gmail.com
 
+[includeIf "gitdir:~/src/"]
+    path = ~/src/.gitconfig
+
 [color]
     diff = auto
     status = auto
