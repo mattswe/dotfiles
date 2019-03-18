@@ -9,8 +9,8 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 export EDITOR=vim
 
 # Git completions
-source /usr/local/Cellar/git/2.17.1/etc/bash_completion.d/git-completion.bash
-source /usr/local/Cellar/git/2.17.1/etc/bash_completion.d/git-prompt.sh
+source /usr/local/Cellar/git/2.21.0/etc/bash_completion.d/git-completion.bash
+source /usr/local/Cellar/git/2.21.0/etc/bash_completion.d/git-prompt.sh
 
 # Maximum number of history lines in memory
 export HISTSIZE=50000
@@ -24,16 +24,6 @@ shopt -s histappend
 # Ensure user-installed binaries take precedence
 export PATH=/usr/local/bin:$PATH
 
-# Python environment
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-export PYTHONPATH="$PYTHONPATH:$HOME/src/rSW"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-eval "$(pyenv virtualenv-init -)"
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+# Python env
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH="/Users/sweeney/Library/Python/3.7/bin:$PATH"
