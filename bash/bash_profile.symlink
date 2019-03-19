@@ -1,29 +1,2 @@
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
-
-# Bash terminal style
-export PS1='\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\
-\[\033[33;1m\]\w\[\033[m\]$(__git_ps1 "(%s)")\$ '
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
-export EDITOR=vim
-
-# Git completions
-source /usr/local/Cellar/git/2.21.0/etc/bash_completion.d/git-completion.bash
-source /usr/local/Cellar/git/2.21.0/etc/bash_completion.d/git-prompt.sh
-
-# Maximum number of history lines in memory
-export HISTSIZE=50000
-# Maximum number of history lines on disk
-export HISTFILESIZE=50000
-# Ignore duplicate lines
-export HISTCONTROL=ignoredups:erasedups
-# When the shell exits, append to the history file instead of overwriting it
-shopt -s histappend
-
-# Ensure user-installed binaries take precedence
-export PATH=/usr/local/bin:$PATH
-
-# Python, pipenv
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="/Users/sweeney/Library/Python/3.7/bin:$PATH"
